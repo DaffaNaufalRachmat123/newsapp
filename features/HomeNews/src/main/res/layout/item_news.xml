@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:foreground="?attr/selectableItemBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/imageNews"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/notFoundImage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_gray_1"
+        android:text="No Image"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/imageNews"
+        app:layout_constraintTop_toTopOf="@id/imageNews"
+        app:layout_constraintEnd_toEndOf="@id/imageNews"
+        app:layout_constraintBottom_toBottomOf="@id/imageNews"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/authorNewsText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        tools:text="Mitchell Clark"
+        android:fontFamily="@font/opensans_semibold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageNews"
+        app:layout_constraintEnd_toStartOf="@id/timestampNewsText"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/timestampNewsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        tools:text="28 September 2019"
+        android:fontFamily="@font/opensans_reguler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/authorNewsText"
+        app:layout_constraintBottom_toBottomOf="@id/authorNewsText"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/titleNewsText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:fontFamily="@font/opensans_bold"
+        tools:text="This motorized gaming bed lets you rest your gamer head - The Verge"
+        app:layout_constraintTop_toBottomOf="@id/authorNewsText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+rootProject.name = "NostraNews"
+include ':app'
+include ':Core'
+include ':Common'
+include ':features'
+include ':features:HomeNews'
+include ':UiResources'
+include ':Navigation'
+include ':features:splash'

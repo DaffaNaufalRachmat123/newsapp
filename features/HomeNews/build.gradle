@@ -1,0 +1,22 @@
+apply from: '../../android_feature_dependencies.gradle'
+apply plugin: 'kotlin-kapt'
+android {
+}
+
+dependencies {
+
+    // NETWORK
+    api Libraries.retrofit
+    api Libraries.retrofitGsonConverter
+    api Libraries.okhttp
+    api Libraries.httpLoggingInterceptor
+
+    // ANDROID
+    api KotlinLibraries.kotlinCoroutineCore
+    api KotlinLibraries.kotlinCoroutineAndroid
+    implementation AndroidLibraries.recyclerView
+
+    // KOIN
+    implementation Libraries.koin
+    implementation Libraries.koinViewModel
+}
