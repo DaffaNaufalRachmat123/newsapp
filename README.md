@@ -2,8 +2,6 @@
 ## Architecture
 
 - MVVM
-- Kotlin Coroutines
-- RxJava
 - Modularization
 
 ## Unit Testing
@@ -11,6 +9,16 @@
 I've been write some Unit Test in this application with Mockito , Koin and ViewModel
 
 - Fetch News API Top Headlines
+
+## Library
+
+- OkHttp
+- Retrofit
+- Kotlin Coroutines
+- RxJava
+- ViewBindingKtx DylanCai
+- Gson
+- etc
 
 ## Modularization
 
