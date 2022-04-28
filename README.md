@@ -35,4 +35,4 @@ I separate the features with different modules
 # Result Application
 
 - Splash Screen
-(Splash Screen.png)
+![Alt text](Splash Screen.png "Optional Title")
