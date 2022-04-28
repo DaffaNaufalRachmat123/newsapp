@@ -12,11 +12,12 @@ import com.android.saltnews.homenews.adapter.HomeNewsAdapter
 import com.android.saltnews.homenews.databinding.MainHomeActivityBinding
 import com.android.saltnews.navigation.Activities
 import com.android.saltnews.navigation.startFeature
+import com.github.ajalt.timberkt.Timber.d
 
 class MainHomeActivity : BaseActivity<HomeViewModel>(R.layout.main_home_activity) {
     private val binding by binding<MainHomeActivityBinding>()
     private val country = "us"
-    private val category = "technology"
+    private val category = "science"
     private var page = 1
     private var totalResult = 0
     private val pageSize = 5
@@ -40,6 +41,8 @@ class MainHomeActivity : BaseActivity<HomeViewModel>(R.layout.main_home_activity
                     if(state.data.articles.size > 0){
                         stateLayout.showContent()
                         newsAdapter?.setNewData(state.data.articles)
+                        d { "url : ${state.data.articles[2].url}"}
+                        d { "image source url : ${state.data.articles[2].urlToImage}"}
                         var nextPage : String? = null
                         if(totalResult < state.data.totalResults){
                             totalResult += pageSize

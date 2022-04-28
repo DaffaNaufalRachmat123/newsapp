@@ -32,7 +32,6 @@ fun getGlideOptions(
 
     val options = RequestOptions()
         .diskCacheStrategy(DiskCacheStrategy.ALL)
-        .format(if (isLowRamDevice) DecodeFormat.PREFER_RGB_565 else DecodeFormat.PREFER_ARGB_8888)
         .downsample(DownsampleStrategy.CENTER_INSIDE)
         .priority(Priority.HIGH)
         .dontAnimate()
