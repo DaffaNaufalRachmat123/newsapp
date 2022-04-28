@@ -35,4 +35,4 @@ I separate the features with different modules
 # Result Application
 
 - Splash Screen
-![Alt text](Splash Screen.png "Optional Title")
+![Alt text](https://github.com/DaffaNaufalRachmat123/newsapp/issues/1 "Optional Title")
