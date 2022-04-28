@@ -1,5 +1,5 @@
 object ApplicationId {
-    val id = "com.android.nostranews"
+    val id = "com.android.saltnews"
 }
 
 object Releases {

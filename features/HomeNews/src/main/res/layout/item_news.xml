@@ -15,19 +15,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/notFoundImage"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:textColor="@color/material_gray_1"
-        android:text="No Image"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="@id/imageNews"
-        app:layout_constraintTop_toTopOf="@id/imageNews"
-        app:layout_constraintEnd_toEndOf="@id/imageNews"
-        app:layout_constraintBottom_toBottomOf="@id/imageNews"/>
-    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/authorNewsText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

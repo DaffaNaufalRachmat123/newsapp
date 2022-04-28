@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.nostranews.homenews">
+    package="com.android.saltnews.homenews">
     <application>
-        <activity android:name=".ActivityDetailNews" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".MainHomeActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.android.saltnews.homenews.ActivityDetailNews" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.android.saltnews.homenews.MainHomeActivity" android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 </manifest>

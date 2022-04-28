@@ -18,12 +18,10 @@ dependencies {
     implementation project(Modules.common)
     implementation project(Modules.UiResources)
     implementation project(Modules.Navigation)
-    implementation Libraries.facebookShimmer
     implementation Libraries.BRVAH
     // TESTS
     testImplementation TestLibraries.koin
     testImplementation TestLibraries.junit
-    testImplementation TestLibraries.archCoreTest
     testImplementation TestLibraries.coroutine
     testImplementation TestLibraries.liveData
     testImplementation 'org.mockito:mockito-core:3.8.0'

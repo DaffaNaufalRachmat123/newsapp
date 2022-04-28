@@ -16,15 +16,15 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file('nostra_news.keystore')
+            storeFile file('salt_news.keystore')
             storePassword 'Naufal Inside123'
-            keyAlias 'NostraNews'
+            keyAlias 'saltnews'
             keyPassword 'Naufal Inside123'
         }
         release {
-            keyAlias 'NostraNews'
+            keyAlias 'saltnews'
             keyPassword 'Naufal Inside123'
-            storeFile file('nostra_news.keystore')
+            storeFile file('salt_news.keystore')
             storePassword 'Naufal Inside123'
         }
     }

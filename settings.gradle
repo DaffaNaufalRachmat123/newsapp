@@ -1,4 +1,4 @@
-rootProject.name = "NostraNews"
+rootProject.name = "saltnews"
 include ':app'
 include ':Core'
 include ':Common'

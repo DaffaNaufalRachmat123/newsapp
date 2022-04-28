@@ -13,29 +13,22 @@
         android:src="@drawable/ic_back_black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/labelTitle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:gravity="center_vertical"
-        android:textSize="17sp"
-        android:textColor="@color/black"
-        android:fontFamily="@font/opensans_semibold"
-        android:text="News"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="10dp"
-        app:layout_constraintStart_toEndOf="@id/icBack"
-        app:layout_constraintTop_toTopOf="@id/icBack"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="center_vertical"
+        android:text="News"
+        android:textColor="@color/black"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="@id/icBack"
-        app:layout_constraintEnd_toStartOf="@id/icShare"/>
-    <ImageView
-        android:id="@+id/icShare"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:src="@drawable/ic_share_black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/labelTitle"
-        app:layout_constraintBottom_toBottomOf="@id/labelTitle"/>
+        app:layout_constraintStart_toEndOf="@id/icBack"
+        app:layout_constraintTop_toTopOf="@id/icBack" />
+
     <androidx.core.widget.NestedScrollView
         android:id="@+id/nestedScrollView"
         android:layout_width="0dp"
@@ -53,6 +46,7 @@
                 android:layout_width="0dp"
                 android:layout_height="230dp"
                 android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>

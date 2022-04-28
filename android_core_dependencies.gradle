@@ -29,11 +29,5 @@ dependencies {
     implementation AndroidLibraries.lifecycleLiveData
     implementation AndroidLibraries.lifecycleViewModel
     implementation AndroidLibraries.lifecycleRuntimeKtx
-    implementation Libraries.threeTenAbp
-
-    // KotPref
-    implementation Libraries.kotPrefCore
-    implementation Libraries.kotPrefInit
-    implementation Libraries.kotPrefGson
     implementation Libraries.gson
 }
