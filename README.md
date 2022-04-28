@@ -35,4 +35,11 @@ I separate the features with different modules
 # Result Application
 
 - Splash Screen
-![Splash Screen Image](https://github.com/DaffaNaufalRachmat123/newsapp/issues/1 "Optional Title")
+![Splash Screen Image](https://github.com/DaffaNaufalRachmat123/newsapp/issues/1)
+
+- Home Screen
+![Home Screen Image](https://github.com/DaffaNaufalRachmat123/newsapp/issues/2)
+
+- Detail Screen
+![Detail Screen Image](https://github.com/DaffaNaufalRachmat123/newsapp/issues/3)
+
