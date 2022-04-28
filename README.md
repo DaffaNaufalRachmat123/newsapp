@@ -31,3 +31,8 @@ I separate the features with different modules
 - features - contains the feature home news and splash screen.
 - Navigation - contains string that navigate between other activities
 - UiResources - contains resources of this application like drawable , colors , string ,etc.
+
+# Result Application
+
+- Splash Screen
+![Screenshot](Splash Screen.png)
