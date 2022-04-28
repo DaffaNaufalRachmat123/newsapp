@@ -35,4 +35,4 @@ I separate the features with different modules
 # Result Application
 
 - Splash Screen
-![Screenshot](Splash Screen.png)
+(Splash Screen.png)
