@@ -9,7 +9,7 @@ on:
 jobs:
   buildingApplication:
     name: Generate APK
-    runs-on: ubuntu-latest
+    runs-on: suberes-self-hoster-runner
 
     steps:
       - uses: actions/checkout@v2
