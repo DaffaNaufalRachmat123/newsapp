@@ -8,19 +8,6 @@ import com.android.saltnews.log.DebugTree
 
 class TimberInitializer : Initializer<Unit> {
 
-//    @Throws(IOException::class)
-//    private fun createFileLoggingTree(context: Context): Timber.Tree {
-//        val loggingFile = StorageHelper.getLogsCache(context)
-//        return FileLoggerTree.Builder()
-//            .withFileName("${context.packageName}.log")
-//            .withDirName(loggingFile.absolutePath)
-//            .withSizeLimit(logSizeLimit)
-//            .withFileLimit(1)
-//            .withMinPriority(logLevel)
-//            .appendToFile(true)
-//            .build()
-//    }
-
     /**
      * Initializes and a component given the application [Context]
      *
