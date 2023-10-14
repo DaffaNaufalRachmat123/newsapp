@@ -13,15 +13,6 @@ import org.koin.core.logger.Level
 import org.koin.core.logger.Logger
 import org.koin.core.logger.MESSAGE
 
-/**
- * Created on : 8/19/20.
- * Author     : Musthofa Ali Ubaed
- * Email      : panic.inc.dev@gmail.com
- */
-/**
- * Start koin if global KoinContext is null.
- * @return [Koin] instance.
- */
 fun Context.startKoinIfNeeded(): Koin {
     return startKoin {
         logger(KoinInitializer.KoinLogger(if (BuildConfig.DEBUG) Level.ERROR else Level.NONE))

@@ -6,9 +6,6 @@ import retrofit2.Retrofit
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 
-/**
- * Created by Musthofa Ali Ubaed <panic.inc.dev@gmail.com> on 07/05/2020.
- */
 class NetworkResponseAdapterFactory : CallAdapter.Factory() {
 
     override fun get(

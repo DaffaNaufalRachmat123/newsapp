@@ -3,9 +3,6 @@ package com.android.saltnews.core.network
 import java.io.IOException
 
 
-/**
- * Created by Musthofa Ali Ubaed <panic.inc.dev@gmail.com> on 07/05/2020.
- */
 typealias GenericResponse<S> = NetworkResponse<S, Error>
 
 data class GenericError(val code: Int, val message: String)

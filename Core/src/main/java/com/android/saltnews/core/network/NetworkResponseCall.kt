@@ -9,9 +9,6 @@ import retrofit2.Converter
 import retrofit2.Response
 import java.io.IOException
 
-/**
- * Created by Musthofa Ali Ubaed <panic.inc.dev@gmail.com> on 07/05/2020.
- */
 internal class NetworkResponseCall<S : Any, E : Any>(
         private val delegate: Call<S>,
         private val errorConverter: Converter<ResponseBody, E>
